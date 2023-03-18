@@ -1,0 +1,145 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="homePage.aspx.cs" Inherits="DB_MAKAN_UL_TAJARAH.homePage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <div class="d-flex justify-content-center align-items-center" style="height:40vh;">
+        <h1 class="custom-heading" style="font-size:50px">
+            Want Something New?
+        </h1>
+    </div>
+    <div class="d-flex justify-content-center align-items-center" style="height:20vh;">
+        <h2 class="custom-heading" style="font-size:40px">
+            Check our Products..🙂
+        </h2>
+    </div>
+
+     <section class="material_section layout_padding">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                    <img src="images/i_attar.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                    Attar Perfume
+                  </a>
+                  <div class="price_box">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <asp:TextBox style="width:40px;border-radius:5px 5px;border:none;" ID="TextBox1" type="number" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-md-8">
+                            <h6 class="price_heading">
+                              <span>$</span> 10.00
+                            </h6>
+                        </div>
+                        <div class="col-md-2">
+                            <asp:TextBox style="width:40px;border-radius:5px 5px;border:none;" ID="TextBox2" Text="0" runat="server" ReadOnly="True"></asp:TextBox>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                  
+                    <img src="images/i_attar2.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                     Attar Perfume
+                  </a>
+                  <div class="price_box">
+                    <h6 class="price_heading">
+                      <span>$</span> 10.00
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                 
+                    <img src="images/i_cap1.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                    Caps
+                  </a>
+                  <div class="price_box">
+                    <h6 class="price_heading">
+                      <span>$</span> 10.00
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                    <img src="images/quran.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                    Quran
+                  </a>
+                  <div class="price_box">
+                    <h6 class="price_heading">
+                      <span>$</span> 10.00
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                    <img src="images/tasbeeh2.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                    Tasbeeh
+                  </a>
+                  <div class="price_box">
+                    <h6 class="price_heading">
+                      <span>$</span> 10.00
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box">
+                <div class="img-box">
+                    <img src="images/tasbeeh3.jpg" />
+                </div>
+                <div class="detail-box">
+                  <a href="#">
+                    tasbeeh
+                  </a>
+                  <div class="price_box">
+                    <h6 class="price_heading">
+                      <span>$</span> 10.00
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </section>
+
+
+
+</asp:Content>
