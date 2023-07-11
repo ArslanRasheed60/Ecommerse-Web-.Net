@@ -1,0 +1,35 @@
+﻿body {
+}
+
+
+/*buttons for the admin page for side bar*/
+
+.adminsidebarbutton {
+    padding: 7px;
+    text-decoration: inherit;
+    margin-top: 5px;
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 10px 10px;
+    transition: ease-in-out 0.3s;
+}
+
+    .adminsidebarbutton:hover {
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+.adminSmallCards {
+    border: none;
+    background-color: grey;
+    border-radius: 10px 10px;
+    color: white;
+    transition: transform 0.4s;
+}
+
+    .adminSmallCards:hover {
+        transform: scale(1.03);
+    }
+
+
